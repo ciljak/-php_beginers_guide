@@ -1,5 +1,8 @@
+/* basic parts of page */
 body {
     background-color: dimgray;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -15,6 +18,20 @@ p {
     width: fit-content;
 }
 
+.introduction {
+    padding: 15px;
+    border-left: rgb(248, 8, 8);
+    border-style: solid;
+    border-width: 4px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    color: floralwhite;
+    background-color: #495057 ;
+    width: fit-content;
+}
+
+/* nav section */
 nav input label {
     padding-bottom: 10px;
   }

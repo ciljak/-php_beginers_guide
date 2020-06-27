@@ -22,16 +22,24 @@
      </div>
 
      <div class="articlearea">
-        <?php echo '<p> Hello World! </p>'; ?> 
-        <?php $c1= 10;
-            $c2 = 15;
-                echo '<p> Addition of number ';
-                echo $c1;
-                echo ' and ';
-                echo $c2;
-                echo ' is ';
-                echo ($c1 + $c2) ;
-                echo '</p>'; ?> 
+
+         <p class="introduction">
+           <span class="headline"> 1. Example of outputing text string or part of HTML creating page.</span>
+             <br> <?php echo htmlentities("Solution: <?php echo '<p>Output: Hello World! </p>'; ?> "); ?>
+        </p>
+            <?php echo '<p>Output: Hello World! </p>'; ?> 
+        <p class="introduction">
+
+        </p>
+            <?php $c1= 10;
+                $c2 = 15;
+                    echo '<p>Output: Addition of number ';
+                    echo $c1;
+                    echo ' and ';
+                    echo $c2;
+                    echo ' is ';
+                    echo ($c1 + $c2) ;
+                    echo '</p>'; ?> 
       </div>   
       
       <footer>
